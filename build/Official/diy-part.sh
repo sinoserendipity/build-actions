@@ -9,8 +9,8 @@ git clone https://github.com/asvow/luci-app-tailscale package/luci-app-tailscale
 # git clone  https://github.com/gdy666/luci-app-lucky.git package/lucky
 mkdir -p package/luci-app-diskman && \
 wget https://raw.githubusercontent.com/lisaac/luci-app-diskman/master/applications/luci-app-diskman/Makefile -O package/luci-app-diskman/Makefile
-mkdir -p package/parted && \
-wget https://raw.githubusercontent.com/lisaac/luci-app-diskman/master/Parted.Makefile -O package/parted/Makefile
+# mkdir -p package/parted && \
+# wget https://raw.githubusercontent.com/lisaac/luci-app-diskman/master/Parted.Makefile -O package/parted/Makefile
 
 # 后台IP设置
 export Ipv4_ipaddr="192.168.1.1"            # 修改openwrt后台地址(填0为关闭)
