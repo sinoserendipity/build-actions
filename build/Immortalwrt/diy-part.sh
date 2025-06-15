@@ -6,7 +6,7 @@
 
 sed -i '/\/etc\/init\.d\/tailscale/d;/\/etc\/config\/tailscale/d;' feeds/packages/net/tailscale/Makefile
 git clone https://github.com/asvow/luci-app-tailscale package/luci-app-tailscale
-# git clone  https://github.com/gdy666/luci-app-lucky.git package/lucky
+git clone  https://github.com/gdy666/luci-app-lucky.git package/lucky
 
 # 后台IP设置
 export Ipv4_ipaddr="192.168.1.1"            # 修改openwrt后台地址(填0为关闭)
